@@ -2,13 +2,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
         <title>Springle Chat</title>
-        <link rel="//shortcut icon" type="image/x-icon" href="//images/favicon.ico">
-        <link rel="//stylesheet" href="css/styles.css" />
+        <link rel="/shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="/stylesheet" href="css/styles.css" />
     </head>
     <body>
         <header class="header">
             <h2 class="room-title" id="room-title">Public Room</h2>
-            <h1><span class="icon"><img src="images/app-icon-64.png" height="40" /></span> <span class="part-1">Springle</span> <span class="part-2">&nbsp;Chat</span></h1>
+            <h1><span class="icon"><img src="/images/app-icon-64.png" height="40" /></span> <span class="part-1">Springle</span> <span class="part-2">&nbsp;Chat</span></h1>
         </header>
         
         <div id="chat-nickname-form" class="chat-nickname-form">
@@ -37,7 +37,7 @@
         </div>
 
         <div id="loading-message" class="loading-msg hide">
-            <img src="//images/cloud.gif" alt="loading.." />
+            <img src="/images/cloud.gif" alt="loading.." />
             <br />
             <p>Please wait <span id="loading-timer">5 seconds</span> while we connect you to the server.</p>
         </div>
@@ -48,7 +48,7 @@
                 <div class="message-area-padding"></div>
 
                     <div class="talk-bubble-set">
-                        <div class="name"><img src="//images/smiley-smile.png" class="welcome-smiley" /></div>
+                        <div class="name"><img src="/images/smiley-smile.png" class="welcome-smiley" /></div>
                         <div class="bubble">
                             <span class="msg-text  bubble-alt">
                                 Hello <span id="welcome-message-user-name"></span>, welcome to chat.
@@ -76,16 +76,16 @@
                 <span id="send-btn" class="send-btn button">SEND</span>
                 <div id="connection-lost-message" class="connection-lost-message hide">
                     Connection has been lost. Please wait while we retry.
-                    <img src="//images/loader.gif" alt="[Please wait..]" />
+                    <img src="/images/loader.gif" alt="[Please wait..]" />
                 </div>
             </div>
         </div>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="//js/chat_client.js"></script>
+        <script src="/js/chat_client.js"></script>
         <!-- Lets preload some images here-->
-        <img src="//images/smiley-smile.png" alt="smiley1" class="hide" />
-        <audio id="chat-notification-sound" src="//sounds/new-message.ogg" preload="auto"></audio>
+        <img src="/images/smiley-smile.png" alt="smiley1" class="hide" />
+        <audio id="chat-notification-sound" src="/sounds/new-message.ogg" preload="auto"></audio>
 
     </body>
 </html>
