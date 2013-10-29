@@ -9,8 +9,8 @@
 }
 
 * {
-    margin: 0px;
-    font-family: OpenSansLight, Arial, Tahoma, Ubuntu, "Sans serif";
+  margin: 0px;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 body {
@@ -394,7 +394,8 @@ body {
 
 
 .nick-form {
-    font-family: Ubuntu, OpenSansLight, Arial, Tahoma, Ubuntu, "Sans serif";
+    margin: 0 0 10px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .room-title {
