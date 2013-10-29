@@ -18,7 +18,7 @@ $(document).ready(function () {
     var window_has_focus = true;
     var actual_window_title = document.title;
     var flash_title_timer;
-    var enable_ssl = true;
+    var enable_ssl = false;
     var connected = false;
     var connection_retry_timer;
 
