@@ -46,7 +46,9 @@ var allowed_origins = [
     'localhost',
     'springle.rebugged.com',
     'sky.rebugged.com',
-    'developer.cdn.mozilla.net'
+    'developer.cdn.mozilla.net',
+    'chat.makedev.org',
+    'makedev.org'
 ];
 
 var allowed_protocol = 'chat';
