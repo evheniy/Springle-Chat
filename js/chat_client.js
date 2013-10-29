@@ -23,9 +23,9 @@ $(document).ready(function () {
     var connection_retry_timer;
 
     if (enable_ssl === false) {
-        var server_url = 'ws://sky.rebugged.com:8804/';
+        var server_url = 'ws://chat.makedev.com:8804/';
     } else {
-        var server_url = 'wss://sky.rebugged.com:8805/';
+        var server_url = 'wss://chat.makedev.com:8805/';
     }
 
     var msg_bubble_colors = [
